@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<products>
+  <product>
+    <Subscriber>Anuj</Subscriber>
+    <Add>Delhi</Add>
+    <Age>29.0</Age>
+  </product>
+  <product>
+    <Subscriber>Mohan</Subscriber>
+    <Add>Noida</Add>
+    <Age>30.0</Age>
+  </product>
+</products>

@@ -1,0 +1,189 @@
+INFO    2019-02-04 13:23:47,838 [main] baseclass.BaseTest1  - Config file loaded !!!
+INFO    2019-02-04 13:23:47,839 [main] baseclass.BaseTest1  - OR file loaded !!!
+INFO    2019-02-04 13:23:53,291 [main] baseclass.BaseTest1  - Chrome Launched
+INFO    2019-02-04 13:24:09,667 [main] baseclass.BaseTest1  - Navigated to : https://fmssit1.cca-nonprod.nttdataservices.com/dell-exchange/pbFms.do
+INFO    2019-02-04 13:24:10,804 [main] baseclass.BaseTest1  - DB Connection established !!!
+INFO    2019-02-04 13:24:22,798 [main] baseclass.BaseTest1  - Typing in an Element : BoomiUserName_XPATH entered the value as : Anuj11.Singh@nttdata.com
+INFO    2019-02-04 13:24:22,922 [main] baseclass.BaseTest1  - Typing in an Element : BoomiPassword_XPATH entered the value as : Ntt2018
+INFO    2019-02-04 13:24:22,996 [main] baseclass.BaseTest1  - Clicking on an Element : BoomiLogin_XPATH
+INFO    2019-02-04 13:24:27,161 [main] baseclass.BaseTest1  - Clicking on an Element : executeProcess_XPATH
+INFO    2019-02-04 13:24:30,375 [main] baseclass.BaseTest1  - Typing in an Element : atom_XPATH entered the value as : CCA3_SIT1_A
+INFO    2019-02-04 13:24:30,743 [main] baseclass.BaseTest1  - Clicking on an Element : processSearch_XPATH
+INFO    2019-02-04 13:24:33,820 [main] baseclass.BaseTest1  - Clicking on an Element : keySearch_XPATH
+INFO    2019-02-04 13:24:37,085 [main] baseclass.BaseTest1  - Typing in an Element : keySearch_XPATH entered the value as : validate
+INFO    2019-02-04 13:24:37,165 [main] baseclass.BaseTest1  - Clicking on an Element : keySelect_XPATH
+INFO    2019-02-04 13:24:37,219 [main] baseclass.BaseTest1  - Clicking on an Element : validateAndPost_XPATH
+INFO    2019-02-04 13:24:41,373 [main] baseclass.BaseTest1  - Clicking on an Element : executeFinal_CSS
+INFO    2019-02-04 13:24:53,490 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBoomi_XPATH
+INFO    2019-02-04 13:25:13,599 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBoomi_XPATH
+INFO    2019-02-04 13:25:22,930 [main] baseclass.BaseTest1  - Typing in an Element : username_NAME entered the value as : doris
+INFO    2019-02-04 13:25:23,042 [main] baseclass.BaseTest1  - Typing in an Element : password_NAME entered the value as : b0ma8c0nsit1$
+INFO    2019-02-04 13:25:30,298 [main] baseclass.BaseTest1  - Clicking on an Element : login_XPATH
+INFO    2019-02-04 13:25:30,832 [main] baseclass.BaseTest1  - Clicking on an Element : click_CSS
+INFO    2019-02-04 13:25:33,856 [main] baseclass.BaseTest1  - Finding the Element : menu_XPATH
+INFO    2019-02-04 13:25:34,257 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:25:39,240 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:25:40,807 [main] baseclass.BaseTest1  - Clicking on an Element : quoterRbtn_CSS
+INFO    2019-02-04 13:25:44,457 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:25:46,539 [main] baseclass.BaseTest1  - Clicking on an Element : billingCycle_XPATH
+INFO    2019-02-04 13:25:48,723 [main] baseclass.BaseTest1  - Typing in an Element : billingCycle_XPATH entered the value as : 626916681082-H
+INFO    2019-02-04 13:25:52,121 [main] baseclass.BaseTest1  - Clicking on an Element : btn_XPATH
+INFO    2019-02-04 13:25:55,814 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:25:57,921 [main] baseclass.BaseTest1  - Clicking on an Element : subID_CSS
+INFO    2019-02-04 13:25:58,073 [main] baseclass.BaseTest1  - Typing in an Element : subIDBox_XPATH entered the value as : 626916681082-H
+INFO    2019-02-04 13:25:58,183 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_XPATH entered the value as : 08/2018
+INFO    2019-02-04 13:25:59,362 [main] baseclass.BaseTest1  - Typing in an Element : runOption_XPATH entered the value as : Immediate
+INFO    2019-02-04 13:26:03,501 [main] baseclass.BaseTest1  - Clicking on an Element : submitBtn1_XPATH
+INFO    2019-02-04 13:26:06,951 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn1_XPATH
+INFO    2019-02-04 13:26:10,579 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBtn1_XPATH
+INFO    2019-02-04 13:26:14,866 [main] baseclass.BaseTest1  - Clicking on an Element : quoteImg_XPATH
+INFO    2019-02-04 13:26:16,404 [main] baseclass.BaseTest1  - Clicking on an Element : postBtn1_XPATH
+INFO    2019-02-04 13:26:19,157 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:26:25,443 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:26:26,694 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:26:27,703 [main] baseclass.BaseTest1  - Clicking on an Element : quoterRbtn_CSS
+INFO    2019-02-04 13:26:30,835 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:26:32,926 [main] baseclass.BaseTest1  - Clicking on an Element : billingCycle_XPATH
+INFO    2019-02-04 13:26:35,075 [main] baseclass.BaseTest1  - Typing in an Element : billingCycle_XPATH entered the value as : 626916681085-H
+INFO    2019-02-04 13:26:37,841 [main] baseclass.BaseTest1  - Clicking on an Element : btn_XPATH
+INFO    2019-02-04 13:26:40,989 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:26:43,095 [main] baseclass.BaseTest1  - Clicking on an Element : subID_CSS
+INFO    2019-02-04 13:26:43,245 [main] baseclass.BaseTest1  - Typing in an Element : subIDBox_XPATH entered the value as : 626916681085-H
+INFO    2019-02-04 13:26:43,339 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_XPATH entered the value as : 08/2018
+INFO    2019-02-04 13:26:44,486 [main] baseclass.BaseTest1  - Typing in an Element : runOption_XPATH entered the value as : Immediate
+INFO    2019-02-04 13:26:47,563 [main] baseclass.BaseTest1  - Clicking on an Element : submitBtn1_XPATH
+INFO    2019-02-04 13:26:50,775 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn1_XPATH
+INFO    2019-02-04 13:26:53,834 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBtn1_XPATH
+INFO    2019-02-04 13:26:57,849 [main] baseclass.BaseTest1  - Clicking on an Element : quoteImg_XPATH
+INFO    2019-02-04 13:26:59,424 [main] baseclass.BaseTest1  - Clicking on an Element : postBtn1_XPATH
+INFO    2019-02-04 13:27:02,189 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:27:11,574 [main] baseclass.BaseTest1  - Selecting  Element from : mainMenuAR_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_AR"]]
+INFO    2019-02-04 13:27:12,771 [main] baseclass.BaseTest1  - Selecting  Element from : billHist_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:27:12,868 [main] baseclass.BaseTest1  - Typing in an Element : subsID_XPATH entered the value as : 626916681082-H
+INFO    2019-02-04 13:27:20,734 [main] baseclass.BaseTest1  - Clicking on an Element : searchBtn1_XPATH
+INFO    2019-02-04 13:27:23,800 [main] baseclass.BaseTest1  - Getting text for Element : arAccountCheck_XPATH
+INFO    2019-02-04 13:27:24,347 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:27:28,001 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:27:31,108 [main] baseclass.BaseTest1  - Selecting  Element from : mainMenuAR_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_AR"]]
+INFO    2019-02-04 13:27:32,744 [main] baseclass.BaseTest1  - Selecting  Element from : payment_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_RatesAndFees2"]]
+INFO    2019-02-04 13:27:32,842 [main] baseclass.BaseTest1  - Clicking on an Element : createRBtn_CSS
+INFO    2019-02-04 13:27:34,757 [main] baseclass.BaseTest1  - Clicking on an Element : continueBtn_XPATH
+INFO    2019-02-04 13:27:37,856 [main] baseclass.BaseTest1  - Typing in an Element : itemCount_XPATH entered the value as : 1
+INFO    2019-02-04 13:27:37,923 [main] baseclass.BaseTest1  - Typing in an Element : batchTotal_XPATH entered the value as : 300
+INFO    2019-02-04 13:27:41,060 [main] baseclass.BaseTest1  - Typing in an Element : paymentPostDate_XPATH entered the value as : 02/2019
+INFO    2019-02-04 13:27:45,503 [main] baseclass.BaseTest1  - Clicking on an Element : saveBtn_XPATH
+INFO    2019-02-04 13:27:49,461 [main] baseclass.BaseTest1  - Clicking on an Element : addTrans_XPATH
+INFO    2019-02-04 13:27:51,593 [main] baseclass.BaseTest1  - Typing in an Element : arAcct_XPATH entered the value as : 700072532
+INFO    2019-02-04 13:27:52,601 [main] baseclass.BaseTest1  - Clicking on an Element : label_XPATH
+INFO    2019-02-04 13:27:54,730 [main] baseclass.BaseTest1  - Typing in an Element : fundsAmt_XPATH entered the value as : 300
+INFO    2019-02-04 13:27:55,479 [main] baseclass.BaseTest1  - Typing in an Element : compCode_XPATH entered the value as : HIX [Health Connector]
+INFO    2019-02-04 13:27:57,594 [main] baseclass.BaseTest1  - Typing in an Element : glRefCode_XPATH entered the value as : PRM [Premium]
+INFO    2019-02-04 13:28:00,842 [main] baseclass.BaseTest1  - Clicking on an Element : saveBtn2_XPATH
+INFO    2019-02-04 13:28:04,910 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:28:08,248 [main] baseclass.BaseTest1  - Clicking on an Element : postBatchBtn_XPATH
+INFO    2019-02-04 13:28:11,963 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn4_XPATH
+INFO    2019-02-04 13:28:15,925 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn4_XPATH
+INFO    2019-02-04 13:28:25,625 [main] baseclass.BaseTest1  - Selecting  Element from : mainMenuAR_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_AR"]]
+INFO    2019-02-04 13:28:26,311 [main] baseclass.BaseTest1  - Selecting  Element from : billHist_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:28:26,437 [main] baseclass.BaseTest1  - Typing in an Element : subsID_XPATH entered the value as : 626916681085-H
+INFO    2019-02-04 13:28:33,780 [main] baseclass.BaseTest1  - Clicking on an Element : searchBtn1_XPATH
+INFO    2019-02-04 13:28:36,847 [main] baseclass.BaseTest1  - Getting text for Element : arAccountCheck_XPATH
+INFO    2019-02-04 13:28:37,685 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:28:41,119 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:28:44,180 [main] baseclass.BaseTest1  - Selecting  Element from : mainMenuAR_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_AR"]]
+INFO    2019-02-04 13:28:45,672 [main] baseclass.BaseTest1  - Selecting  Element from : payment_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_RatesAndFees2"]]
+INFO    2019-02-04 13:28:45,750 [main] baseclass.BaseTest1  - Clicking on an Element : createRBtn_CSS
+INFO    2019-02-04 13:28:49,335 [main] baseclass.BaseTest1  - Clicking on an Element : continueBtn_XPATH
+INFO    2019-02-04 13:28:52,443 [main] baseclass.BaseTest1  - Typing in an Element : itemCount_XPATH entered the value as : 1
+INFO    2019-02-04 13:28:52,508 [main] baseclass.BaseTest1  - Typing in an Element : batchTotal_XPATH entered the value as : 300
+INFO    2019-02-04 13:28:55,674 [main] baseclass.BaseTest1  - Typing in an Element : paymentPostDate_XPATH entered the value as : 02/2019
+INFO    2019-02-04 13:29:00,554 [main] baseclass.BaseTest1  - Clicking on an Element : saveBtn_XPATH
+INFO    2019-02-04 13:29:04,451 [main] baseclass.BaseTest1  - Clicking on an Element : addTrans_XPATH
+INFO    2019-02-04 13:29:06,603 [main] baseclass.BaseTest1  - Typing in an Element : arAcct_XPATH entered the value as : 700072531
+INFO    2019-02-04 13:29:07,541 [main] baseclass.BaseTest1  - Clicking on an Element : label_XPATH
+INFO    2019-02-04 13:29:09,680 [main] baseclass.BaseTest1  - Typing in an Element : fundsAmt_XPATH entered the value as : 300
+INFO    2019-02-04 13:29:10,403 [main] baseclass.BaseTest1  - Typing in an Element : compCode_XPATH entered the value as : HIX [Health Connector]
+INFO    2019-02-04 13:29:12,545 [main] baseclass.BaseTest1  - Typing in an Element : glRefCode_XPATH entered the value as : PRM [Premium]
+INFO    2019-02-04 13:29:15,817 [main] baseclass.BaseTest1  - Clicking on an Element : saveBtn2_XPATH
+INFO    2019-02-04 13:29:19,884 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn3_XPATH
+INFO    2019-02-04 13:29:23,187 [main] baseclass.BaseTest1  - Clicking on an Element : postBatchBtn_XPATH
+INFO    2019-02-04 13:29:27,494 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn4_XPATH
+INFO    2019-02-04 13:29:30,955 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn4_XPATH
+INFO    2019-02-04 13:29:40,723 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:29:46,729 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:29:49,800 [main] baseclass.BaseTest1  - Clicking on an Element : quoterRbtn_CSS
+INFO    2019-02-04 13:29:58,243 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:30:01,336 [main] baseclass.BaseTest1  - Clicking on an Element : billingCycle_XPATH
+INFO    2019-02-04 13:30:04,472 [main] baseclass.BaseTest1  - Typing in an Element : billingCycle_XPATH entered the value as : 626916681082-H
+INFO    2019-02-04 13:30:07,728 [main] baseclass.BaseTest1  - Clicking on an Element : btn_XPATH
+INFO    2019-02-04 13:30:11,712 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:30:14,834 [main] baseclass.BaseTest1  - Clicking on an Element : subID_CSS
+INFO    2019-02-04 13:30:14,998 [main] baseclass.BaseTest1  - Typing in an Element : subIDBox_XPATH entered the value as : 626916681082-H
+INFO    2019-02-04 13:30:15,092 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_XPATH entered the value as : 08/2018
+INFO    2019-02-04 13:30:16,217 [main] baseclass.BaseTest1  - Typing in an Element : enrollCycle_XPATH entered the value as : 25 - Calculate Threshold
+INFO    2019-02-04 13:30:18,351 [main] baseclass.BaseTest1  - Typing in an Element : runOption_XPATH entered the value as : Immediate
+INFO    2019-02-04 13:30:21,834 [main] baseclass.BaseTest1  - Clicking on an Element : submitBtn1_XPATH
+INFO    2019-02-04 13:30:24,854 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn1_XPATH
+INFO    2019-02-04 13:30:27,897 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBtn1_XPATH
+INFO    2019-02-04 13:30:31,986 [main] baseclass.BaseTest1  - Clicking on an Element : quoteImg_XPATH
+INFO    2019-02-04 13:30:33,480 [main] baseclass.BaseTest1  - Clicking on an Element : postBtn1_XPATH
+INFO    2019-02-04 13:30:37,074 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:30:47,103 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:30:55,605 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:30:57,966 [main] baseclass.BaseTest1  - Clicking on an Element : quoterRbtn_CSS
+INFO    2019-02-04 13:31:03,296 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:31:06,350 [main] baseclass.BaseTest1  - Clicking on an Element : billingCycle_XPATH
+INFO    2019-02-04 13:31:09,483 [main] baseclass.BaseTest1  - Typing in an Element : billingCycle_XPATH entered the value as : 626916681085-H
+INFO    2019-02-04 13:31:12,546 [main] baseclass.BaseTest1  - Clicking on an Element : btn_XPATH
+INFO    2019-02-04 13:31:15,797 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:31:18,897 [main] baseclass.BaseTest1  - Clicking on an Element : subID_CSS
+INFO    2019-02-04 13:31:19,065 [main] baseclass.BaseTest1  - Typing in an Element : subIDBox_XPATH entered the value as : 626916681085-H
+INFO    2019-02-04 13:31:19,192 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_XPATH entered the value as : 08/2018
+INFO    2019-02-04 13:31:20,345 [main] baseclass.BaseTest1  - Typing in an Element : enrollCycle_XPATH entered the value as : 25 - Calculate Threshold
+INFO    2019-02-04 13:31:22,474 [main] baseclass.BaseTest1  - Typing in an Element : runOption_XPATH entered the value as : Immediate
+INFO    2019-02-04 13:31:26,093 [main] baseclass.BaseTest1  - Clicking on an Element : submitBtn1_XPATH
+INFO    2019-02-04 13:31:29,418 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn1_XPATH
+INFO    2019-02-04 13:31:32,445 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBtn1_XPATH
+INFO    2019-02-04 13:31:36,704 [main] baseclass.BaseTest1  - Clicking on an Element : quoteImg_XPATH
+INFO    2019-02-04 13:31:38,604 [main] baseclass.BaseTest1  - Clicking on an Element : postBtn1_XPATH
+INFO    2019-02-04 13:31:42,877 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:31:52,597 [main] baseclass.BaseTest1  - Clicking on an Element : executeProcess_XPATH
+INFO    2019-02-04 13:31:55,747 [main] baseclass.BaseTest1  - Typing in an Element : atom_XPATH entered the value as : CCA3_SIT1_A
+INFO    2019-02-04 13:31:58,958 [main] baseclass.BaseTest1  - Clicking on an Element : processSearch_XPATH
+INFO    2019-02-04 13:32:02,027 [main] baseclass.BaseTest1  - Clicking on an Element : keySearch_XPATH
+INFO    2019-02-04 13:32:05,563 [main] baseclass.BaseTest1  - Typing in an Element : keySearch_XPATH entered the value as : DailyMemberUpdateFor834
+INFO    2019-02-04 13:32:05,642 [main] baseclass.BaseTest1  - Clicking on an Element : dailyMemUpdate_XPATH
+INFO    2019-02-04 13:32:09,752 [main] baseclass.BaseTest1  - Clicking on an Element : executeFinal_CSS
+INFO    2019-02-04 13:32:21,914 [main] baseclass.BaseTest1  - Clicking on an Element : refreshBoomi_XPATH
+INFO    2019-02-04 13:32:51,862 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:32:54,862 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:32:57,924 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:33:02,693 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:33:02,796 [main] baseclass.BaseTest1  - Clicking on an Element : subID_XPATH
+INFO    2019-02-04 13:33:03,024 [main] baseclass.BaseTest1  - Typing in an Element : subs_NAME entered the value as : 626916681082-H
+INFO    2019-02-04 13:33:03,214 [main] baseclass.BaseTest1  - Typing in an Element : billThru_NAME entered the value as : 09/30/2018
+INFO    2019-02-04 13:33:03,369 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_NAME entered the value as : 08/2018
+INFO    2019-02-04 13:33:06,479 [main] baseclass.BaseTest1  - Typing in an Element : run_NAME entered the value as : Immediate
+INFO    2019-02-04 13:33:08,005 [main] baseclass.BaseTest1  - Clicking on an Element : create_XPATH
+INFO    2019-02-04 13:33:10,938 [main] baseclass.BaseTest1  - Clicking on an Element : close_XPATH
+INFO    2019-02-04 13:33:22,489 [main] baseclass.BaseTest1  - Clicking on an Element : refresh_XPATH
+INFO    2019-02-04 13:33:29,525 [main] baseclass.BaseTest1  - Clicking on an Element : invPost_XPATH
+INFO    2019-02-04 13:33:32,465 [main] baseclass.BaseTest1  - Clicking on an Element : post_XPATH
+INFO    2019-02-04 13:33:35,433 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:33:38,540 [main] baseclass.BaseTest1  - Selecting  Element from : menu_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_Jobs"]]
+INFO    2019-02-04 13:33:39,900 [main] baseclass.BaseTest1  - Selecting  Element from : menuBill_XPATH and value is : [[ChromeDriver: chrome on XP (7b417520ed3bc9defd3607524f387552)] -> xpath: //*[@id="MainMenu_BillingConfiguration0"]]
+INFO    2019-02-04 13:33:43,163 [main] baseclass.BaseTest1  - Clicking on an Element : subscriber_XPATH
+INFO    2019-02-04 13:33:47,660 [main] baseclass.BaseTest1  - Clicking on an Element : newJob_XPATH
+INFO    2019-02-04 13:33:47,732 [main] baseclass.BaseTest1  - Clicking on an Element : subID_XPATH
+INFO    2019-02-04 13:33:47,889 [main] baseclass.BaseTest1  - Typing in an Element : subs_NAME entered the value as : 626916681085-H
+INFO    2019-02-04 13:33:48,017 [main] baseclass.BaseTest1  - Typing in an Element : billThru_NAME entered the value as : 09/30/2018
+INFO    2019-02-04 13:33:48,117 [main] baseclass.BaseTest1  - Typing in an Element : postMonth_NAME entered the value as : 08/2018
+INFO    2019-02-04 13:33:51,255 [main] baseclass.BaseTest1  - Typing in an Element : run_NAME entered the value as : Immediate
+INFO    2019-02-04 13:33:52,593 [main] baseclass.BaseTest1  - Clicking on an Element : create_XPATH
+INFO    2019-02-04 13:33:55,666 [main] baseclass.BaseTest1  - Clicking on an Element : close_XPATH
+INFO    2019-02-04 13:34:06,092 [main] baseclass.BaseTest1  - Clicking on an Element : refresh_XPATH
+INFO    2019-02-04 13:34:13,196 [main] baseclass.BaseTest1  - Clicking on an Element : invPost_XPATH
+INFO    2019-02-04 13:34:18,061 [main] baseclass.BaseTest1  - Clicking on an Element : post_XPATH
+INFO    2019-02-04 13:34:20,803 [main] baseclass.BaseTest1  - Clicking on an Element : closeBtn2_XPATH
+INFO    2019-02-04 13:34:33,382 [main] baseclass.BaseTest1  - Test Execution Completed !!!
+INFO    2019-02-04 13:34:34,111 [main] baseclass.BaseTest1  - Test Execution Completed !!!

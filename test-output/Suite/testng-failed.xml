@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Quote Status Test(failed)">
+    <classes>
+      <class name="Testcase.quoteStatusValidationTest">
+        <methods>
+          <include name="validation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Testcase.quoteStatusValidationTest -->
+    </classes>
+  </test> <!-- Quote Status Test(failed) -->
+  <test thread-count="5" name="Quote Generation Test(failed)">
+    <classes>
+      <class name="Testcase.firstQuoteGenerationTest">
+        <methods>
+          <include name="quote" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcase.firstQuoteGenerationTest -->
+    </classes>
+  </test> <!-- Quote Generation Test(failed) -->
+  <test thread-count="5" name="Payment Test(failed)">
+    <classes>
+      <class name="Testcase.memberPaymentTest">
+        <methods>
+          <include name="quote" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcase.memberPaymentTest -->
+    </classes>
+  </test> <!-- Payment Test(failed) -->
+  <test thread-count="5" name="Threshold Test(failed)">
+    <classes>
+      <class name="Testcase.thresholdQuoteTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="quote" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Testcase.thresholdQuoteTest -->
+    </classes>
+  </test> <!-- Threshold Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

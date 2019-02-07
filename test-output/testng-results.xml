@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="356745" started-at="2019-02-05T09:04:12Z" finished-at="2019-02-05T09:10:08Z">
+    <groups>
+    </groups>
+    <test name="Soap UI Test" duration-ms="18170" started-at="2019-02-05T09:04:12Z" finished-at="2019-02-05T09:04:30Z">
+      <class name="Testcase.soapTest">
+        <test-method status="PASS" signature="ProcessPayLoadEnrollmentCalls(java.lang.String)[pri:0, instance:Testcase.soapTest@79be0360]" name="ProcessPayLoadEnrollmentCalls" duration-ms="17204" started-at="2019-02-05T09:04:12Z" data-provider="getData" finished-at="2019-02-05T09:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC22SUB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessPayLoadEnrollmentCalls -->
+      </class> <!-- Testcase.soapTest -->
+    </test> <!-- Soap UI Test -->
+    <test name="Validate and Post Test" duration-ms="52792" started-at="2019-02-05T09:04:30Z" finished-at="2019-02-05T09:05:23Z">
+      <class name="Testcase.validateAndPostTest">
+        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.validateAndPostTest@55b0dcab]" name="NSFBoomi" duration-ms="52788" started-at="2019-02-05T09:04:30Z" data-provider="getData" finished-at="2019-02-05T09:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj11.Singh@nttdata.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ntt2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NSFBoomi -->
+      </class> <!-- Testcase.validateAndPostTest -->
+    </test> <!-- Validate and Post Test -->
+    <test name="Quote Status Test" duration-ms="5741" started-at="2019-02-05T09:05:23Z" finished-at="2019-02-05T09:05:29Z">
+      <class name="Testcase.quoteStatusValidationTest">
+        <test-method status="PASS" signature="validation(java.lang.String)[pri:0, instance:Testcase.quoteStatusValidationTest@6200f9cb]" name="validation" duration-ms="5737" started-at="2019-02-05T09:05:23Z" data-provider="getData" finished-at="2019-02-05T09:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- Testcase.quoteStatusValidationTest -->
+    </test> <!-- Quote Status Test -->
+    <test name="PB Login Test" duration-ms="9825" started-at="2019-02-05T09:05:29Z" finished-at="2019-02-05T09:05:39Z">
+      <class name="Testcase.PBLoginTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Testcase.PBLoginTest@2638011]" name="login" duration-ms="9820" started-at="2019-02-05T09:05:29Z" finished-at="2019-02-05T09:05:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[doris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b0ma8c0nsit1$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Testcase.PBLoginTest -->
+    </test> <!-- PB Login Test -->
+    <test name="Quote Generation Test" duration-ms="43751" started-at="2019-02-05T09:05:39Z" finished-at="2019-02-05T09:06:23Z">
+      <class name="Testcase.firstQuoteGenerationTest">
+        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.firstQuoteGenerationTest@3098cf3b]" name="quote" duration-ms="43744" started-at="2019-02-05T09:05:39Z" finished-at="2019-02-05T09:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quote -->
+      </class> <!-- Testcase.firstQuoteGenerationTest -->
+    </test> <!-- Quote Generation Test -->
+    <test name="Payment Test" duration-ms="71490" started-at="2019-02-05T09:06:23Z" finished-at="2019-02-05T09:07:34Z">
+      <class name="Testcase.memberPaymentTest">
+        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.memberPaymentTest@68567e20]" name="quote" duration-ms="71483" started-at="2019-02-05T09:06:23Z" finished-at="2019-02-05T09:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[doris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b0ma8c0nsit1$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[02/2019]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quote -->
+      </class> <!-- Testcase.memberPaymentTest -->
+    </test> <!-- Payment Test -->
+    <test name="Threshold Test" duration-ms="48630" started-at="2019-02-05T09:07:34Z" finished-at="2019-02-05T09:08:23Z">
+      <class name="Testcase.thresholdQuoteTest">
+        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.thresholdQuoteTest@32910148]" name="quote" duration-ms="48626" started-at="2019-02-05T09:07:34Z" finished-at="2019-02-05T09:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quote -->
+      </class> <!-- Testcase.thresholdQuoteTest -->
+    </test> <!-- Threshold Test -->
+    <test name="Daily member Update Test" duration-ms="52346" started-at="2019-02-05T09:08:23Z" finished-at="2019-02-05T09:09:15Z">
+      <class name="Testcase.dailyMemberUpdateTest">
+        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="NSFBoomi" duration-ms="52339" started-at="2019-02-05T09:08:23Z" data-provider="getData" finished-at="2019-02-05T09:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj11.Singh@nttdata.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ntt2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NSFBoomi -->
+      </class> <!-- Testcase.dailyMemberUpdateTest -->
+    </test> <!-- Daily member Update Test -->
+    <test name="Member Effectuation Status Test" duration-ms="2827" started-at="2019-02-05T09:09:15Z" finished-at="2019-02-05T09:09:18Z">
+      <class name="Testcase.memberEffectuationStatusTest">
+        <test-method status="PASS" signature="validation(java.lang.String)[pri:0, instance:Testcase.memberEffectuationStatusTest@f2ff811]" name="validation" duration-ms="2804" started-at="2019-02-05T09:09:15Z" data-provider="getData" finished-at="2019-02-05T09:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- Testcase.memberEffectuationStatusTest -->
+    </test> <!-- Member Effectuation Status Test -->
+    <test name="Generate Invoice Test" duration-ms="44769" started-at="2019-02-05T09:09:18Z" finished-at="2019-02-05T09:10:03Z">
+      <class name="Testcase.generateInvoiceTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="login" duration-ms="44763" started-at="2019-02-05T09:09:18Z" data-provider="getData" finished-at="2019-02-05T09:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[doris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b0ma8c0nsit1$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[09/30/2018]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[08/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Testcase.generateInvoiceTest -->
+    </test> <!-- Generate Invoice Test -->
+    <test name="820 process Test" duration-ms="5208" started-at="2019-02-05T09:10:03Z" finished-at="2019-02-05T09:10:08Z">
+      <class name="Testcase.dailyMemberUpdateTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="setUp" is-config="true" duration-ms="50354" started-at="2019-02-05T09:02:58Z" finished-at="2019-02-05T09:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="setUp" is-config="true" duration-ms="22917" started-at="2019-02-05T09:03:49Z" finished-at="2019-02-05T09:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="tearDown" is-config="true" duration-ms="763" started-at="2019-02-05T09:10:08Z" finished-at="2019-02-05T09:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="tearDown" is-config="true" duration-ms="906" started-at="2019-02-05T09:10:09Z" finished-at="2019-02-05T09:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.dailyMemberUpdateTest -->
+      <class name="Testcase.Process820Test">
+        <test-method status="PASS" signature="validation(java.lang.String, java.lang.String)[pri:0, instance:Testcase.Process820Test@71c3b41]" name="validation" duration-ms="5205" started-at="2019-02-05T09:10:03Z" data-provider="getData" finished-at="2019-02-05T09:10:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[626916681090-H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[42690]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- Testcase.Process820Test -->
+    </test> <!-- 820 process Test -->
+  </suite> <!-- Suite -->
+</testng-results>
