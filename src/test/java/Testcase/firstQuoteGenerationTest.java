@@ -41,9 +41,9 @@ public class firstQuoteGenerationTest extends BaseTest1{
 	Thread.sleep(2000);
 	
 	clear("billingCycle_XPATH");
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	type ("billingCycle_XPATH",subsID);
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	
 	click("btn_XPATH");
 	Thread.sleep(2000);
@@ -54,18 +54,18 @@ public class firstQuoteGenerationTest extends BaseTest1{
 	type ("postMonth_XPATH",postMonth);
 	Thread.sleep(1000);
 	select("runOption_XPATH","Immediate");
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	click("submitBtn1_XPATH");
 	Thread.sleep(2000);
 	click("closeBtn1_XPATH");
 	Thread.sleep(2000);
 	click("refreshBtn1_XPATH");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	click("quoteImg_XPATH");
 	click("postBtn1_XPATH");
 	Thread.sleep(2000);
 	click("closeBtn2_XPATH");
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	/*action("mainMenuAR_XPATH");
 	action("billHist_XPATH");
 	type("subsID_XPATH",subsID);
@@ -102,7 +102,7 @@ public class firstQuoteGenerationTest extends BaseTest1{
 	       XSSFWorkbook studentsSheet = new XSSFWorkbook(myxls);
 	       XSSFSheet worksheet = studentsSheet.getSheetAt(0);
 	       int lastRow=worksheet.getLastRowNum();
-	       System.out.println(lastRow);
+	       //System.out.println(lastRow);
 	       XSSFRow row = worksheet.createRow(++lastRow);
 	       row.createCell(0).setCellValue("First Quote generation Test");
 	       row.createCell(1).setCellValue(subsID);

@@ -18,6 +18,7 @@ import javax.mail.MessagingException;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
@@ -42,7 +43,16 @@ import utilities.TestUtil;
 			type("BoomiPassword_XPATH",password);
 			
 			click("BoomiLogin_XPATH");
-			//Thread.sleep(3000);
+			
+			try {
+			Alert alert=driver.switchTo().alert();
+			alert.accept();
+			}
+			catch (Exception e)
+			{
+				System.out.println("Alert handled");
+			};
+			Thread.sleep(2000);
 			//select("manage_XPATH","Process Reporting");
 			
 			//Thread.sleep(4000);
@@ -50,8 +60,9 @@ import utilities.TestUtil;
 			//action("menu_XPATH");
 			//action("menuBill_XPATH");
 			Thread.sleep(3000);
-			select("atom_XPATH","CCA3_SIT1_A");
-			//Thread.sleep(3000);
+			//select("atom_XPATH","CCA3_PER_A");
+			select("atom_XPATH","CCA3_SIT2_A");
+			Thread.sleep(3000);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='gwt-TextBox gwt-TextBox-readonly validatable']")));
 			click("processSearch_XPATH");
 		
@@ -61,11 +72,11 @@ import utilities.TestUtil;
 			type("keySearch_XPATH","validate");
 			click("keySelect_XPATH");
 		    click("validateAndPost_XPATH");
-			Thread.sleep(4000);
+			Thread.sleep(3000);
 			click("executeFinal_CSS");
-			Thread.sleep(12000);
+			Thread.sleep(3000);
 			click("refreshBoomi_XPATH");
-			Thread.sleep(20000);
+			Thread.sleep(3000);
 			click("refreshBoomi_XPATH");
 			
 			//select("boomiLogout_XPATH","Log Out");

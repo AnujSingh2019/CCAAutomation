@@ -32,7 +32,7 @@ public class Soap820ProcessTest {
 	public static void ProcessPayLoadEnrollmentCalls(String carrier) throws SOAPException, ParserConfigurationException, SAXException, IOException, InterruptedException
     
     {
-		           System.setProperty("java.net.useSystemProxies", "false");
+		           System.setProperty("java.net.useSystemProxies", "true");
 		           
 		   	   /* System.setProperty("http.proxyHost", "proxy.my.com");
 			    System.setProperty("http.proxyPort", "80");
@@ -57,7 +57,7 @@ public class Soap820ProcessTest {
                    
                    File fXmlFile = new File("C:\\Users\\"+Username+"\\Desktop\\XMLs\\"+filename);
     String    soapAction="generate820OutboundTest";
-    String SoapendpointURL ="https://fmssit1.cca-nonprod.nttdataservices.com/diamond-ws/services/FMSService";
+    String SoapendpointURL ="https://fmssit1.cca-nonprod.nttdataservices.com/diamond-ws/services/FMSService?wsdl";
                    SOAPMessage message = MessageFactory.newInstance().createMessage();
 SOAPPart soapPart = message.getSOAPPart();
 soapPart.setContent(new StreamSource(new FileInputStream(fXmlFile)));

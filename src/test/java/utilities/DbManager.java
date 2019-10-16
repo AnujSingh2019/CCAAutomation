@@ -15,15 +15,15 @@ public class DbManager
 	private static Connection con = null; //sql
 	private static Connection conn = null; //mysql
 
-	//SQL Server
-	public static void setDbConnection() throws SQLException, ClassNotFoundException
+	//SIT1 DB Connection
+/*	public static void setDbConnection() throws SQLException, ClassNotFoundException
 	{
 		try{
 		Class.forName(TestConfig.driver);
 		con =	DriverManager.getConnection(TestConfig.dbConnectionUrl, TestConfig.dbUserName, TestConfig.dbPassword);
 		
 		if(!con.isClosed())
-			System.out.println("Successfully connected to Oracle server");
+			System.out.println("Successfully connected to SIT1 server");
 			
 	}catch(Exception e){
 		System.err.println("Exception: " + e.getMessage());
@@ -32,8 +32,26 @@ public class DbManager
 		}
 		
 		
-	}
+	}*/
 	
+	//SIT2 DB Connection
+		public static void setDbConnection() throws SQLException, ClassNotFoundException
+		{
+			try{
+			Class.forName(TestConfig.driver2);
+			con =	DriverManager.getConnection(TestConfig.dbConnectionUrl2, TestConfig.dbUserName2, TestConfig.dbPassword2);
+			
+			if(!con.isClosed())
+				System.out.println("Successfully connected to SIT2 server");
+				
+		}catch(Exception e){
+			System.err.println("Exception: " + e.getMessage());
+
+			//monitoringMail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject+" - (Script failed with Error, Datamart database used for reports, connection not established)", TestConfig.messageBody, TestConfig.attachmentPath, TestConfig.attachmentName);			
+			}
+			
+			
+		}
 	public static void setMysqlDbConnection() throws SQLException, ClassNotFoundException
     {
     try

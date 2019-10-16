@@ -14,6 +14,17 @@
       </class> <!-- Testcase.quoteStatusValidationTest -->
     </classes>
   </test> <!-- Quote Status Test(failed) -->
+  <test thread-count="5" name="Payment Test(failed)">
+    <classes>
+      <class name="Testcase.memberPaymentTestNew">
+        <methods>
+          <include name="quote" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcase.memberPaymentTestNew -->
+    </classes>
+  </test> <!-- Payment Test(failed) -->
   <test thread-count="5" name="Quote Generation Test(failed)">
     <classes>
       <class name="Testcase.firstQuoteGenerationTest">
@@ -25,26 +36,13 @@
       </class> <!-- Testcase.firstQuoteGenerationTest -->
     </classes>
   </test> <!-- Quote Generation Test(failed) -->
-  <test thread-count="5" name="Payment Test(failed)">
+  <test thread-count="5" name="Member Effectuation Status Test(failed)">
     <classes>
-      <class name="Testcase.memberPaymentTest">
+      <class name="Testcase.memberEffectuationStatusTest">
         <methods>
-          <include name="quote" invocation-numbers="0 1"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="validation" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Testcase.memberPaymentTest -->
+      </class> <!-- Testcase.memberEffectuationStatusTest -->
     </classes>
-  </test> <!-- Payment Test(failed) -->
-  <test thread-count="5" name="Threshold Test(failed)">
-    <classes>
-      <class name="Testcase.thresholdQuoteTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="quote" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- Testcase.thresholdQuoteTest -->
-    </classes>
-  </test> <!-- Threshold Test(failed) -->
+  </test> <!-- Member Effectuation Status Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

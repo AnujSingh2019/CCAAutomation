@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Quote Generation Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 05 14:35:39 IST 2019</td>
+<td>Started on:</td><td>Wed Sep 18 11:33:58 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>43 seconds (43751 ms)</td>
+<tr><td>Total time:</td><td>142 seconds (142832 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,18 +67,109 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Testcase.firstQuoteGenerationTest.quote()'><b>quote</b><br>Test class: Testcase.firstQuoteGenerationTest<br>Parameters: 626916681090-H, 08/2018</td>
-<td></td>
-<td>43</td>
-<td>Testcase.firstQuoteGenerationTest@3098cf3b</td></tr>
+<td title='Testcase.firstQuoteGenerationTest.quote()'><b>quote</b><br>Test class: Testcase.firstQuoteGenerationTest<br>Parameters: 700019091801-H, 01/2019<br/>
+<a href="#Output-303846650" onClick='toggleBox("Output-303846650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-303846650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-303846650">
+<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg>Screenshot link</a><br/>
+<br><br/>
+<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg><img src=Wed_Sep_18_11_35_09_IST_2019.jpg height=200 width=200></a><br/>
+</div>
+</td>
+<td><div><pre>java.sql.SQLException: Exhausted Resultset
+	at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+	at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+	at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace303846650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace303846650'><pre>java.sql.SQLException: Exhausted Resultset
+	at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+	at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+	at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>71</td>
+<td>Testcase.firstQuoteGenerationTest@60015ef5</td></tr>
+<tr>
+<td title='Testcase.firstQuoteGenerationTest.quote()'><b>quote</b><br>Test class: Testcase.firstQuoteGenerationTest<br>Parameters: 700019091802-H, 01/2019<br/>
+<a href="#Output-971404566" onClick='toggleBox("Output-971404566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-971404566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-971404566">
+<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg>Screenshot link</a><br/>
+<br><br/>
+<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg><img src=Wed_Sep_18_11_36_20_IST_2019.jpg height=200 width=200></a><br/>
+</div>
+</td>
+<td><div><pre>java.sql.SQLException: Exhausted Resultset
+	at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+	at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+	at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace971404566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace971404566'><pre>java.sql.SQLException: Exhausted Resultset
+	at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+	at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+	at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>70</td>
+<td>Testcase.firstQuoteGenerationTest@60015ef5</td></tr>
 </table><p>
 </body>
 </html>

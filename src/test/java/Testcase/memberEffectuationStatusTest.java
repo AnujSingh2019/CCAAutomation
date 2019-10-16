@@ -53,7 +53,7 @@ public class memberEffectuationStatusTest {
 			   	       XSSFWorkbook studentsSheet = new XSSFWorkbook(myxls);
 			   	       XSSFSheet worksheet = studentsSheet.getSheetAt(0);
 			   	       int lastRow=worksheet.getLastRowNum();
-			   	       System.out.println(lastRow);
+			   	       //System.out.println(lastRow);
 			   	       XSSFRow row = worksheet.createRow(++lastRow);
 			   	       row.createCell(0).setCellValue("Daily Member Update Test");
 			   	       row.createCell(1).setCellValue(subsID);
@@ -61,6 +61,7 @@ public class memberEffectuationStatusTest {
 			   	       row.createCell(3).setCellValue("70");
 			   	       row.createCell(4).setCellValue(enrollmentStatus);
 			   	       row.createCell(5).setCellValue("PASS");
+			   	  
 			   	       myxls.close();
 			   	       FileOutputStream output_file =new FileOutputStream(new File("D:/Selenium/Eclispse/SeleniumPractice/DataDrivenFrameworkMVN/src/test/resources/excel/Testoutput.xlsx"));  
 			   	       //write changes

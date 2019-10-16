@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="listeners.CustomListeners"></listener>
+	    <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+	<test name="FMSAdminLoginTest">
+    <classes>
+      
+      <class name="Testcase.fmsAdminLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	<test name="Password Reset Test">
+    <classes>
+      
+      <class name="Testcase.fmsAdminPwdResetTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+      
+</suite> <!-- Suite -->

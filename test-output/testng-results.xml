@@ -1,17 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="7" ignored="0" total="14" passed="7">
   <reporter-output>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_32_58_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_32_58_IST_2019.jpg><img src=Wed_Sep_18_11_32_58_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_02_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_02_IST_2019.jpg><img src=Wed_Sep_18_11_33_02_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_57_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_57_IST_2019.jpg><img src=Wed_Sep_18_11_33_57_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg><img src=Wed_Sep_18_11_35_09_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg><img src=Wed_Sep_18_11_36_20_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_00_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_00_IST_2019.jpg><img src=Wed_Sep_18_11_37_00_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_03_IST_2019.jpg>Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_03_IST_2019.jpg><img src=Wed_Sep_18_11_37_03_IST_2019.jpg height=200 width=200></a>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="356745" started-at="2019-02-05T09:04:12Z" finished-at="2019-02-05T09:10:08Z">
+  <suite name="Suite" duration-ms="608423" started-at="2019-09-18T06:02:24Z" finished-at="2019-09-18T06:12:32Z">
     <groups>
     </groups>
-    <test name="Soap UI Test" duration-ms="18170" started-at="2019-02-05T09:04:12Z" finished-at="2019-02-05T09:04:30Z">
+    <test name="Soap UI Test" duration-ms="2669" started-at="2019-09-18T06:02:24Z" finished-at="2019-09-18T06:02:26Z">
       <class name="Testcase.soapTest">
-        <test-method status="PASS" signature="ProcessPayLoadEnrollmentCalls(java.lang.String)[pri:0, instance:Testcase.soapTest@79be0360]" name="ProcessPayLoadEnrollmentCalls" duration-ms="17204" started-at="2019-02-05T09:04:12Z" data-provider="getData" finished-at="2019-02-05T09:04:30Z">
+        <test-method status="PASS" signature="ProcessPayLoadEnrollmentCalls(java.lang.String)[pri:0, instance:Testcase.soapTest@551aa95a]" name="ProcessPayLoadEnrollmentCalls" duration-ms="1564" started-at="2019-09-18T06:02:24Z" data-provider="getData" finished-at="2019-09-18T06:02:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[TC22SUB]]>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessPayLoadEnrollmentCalls -->
+        <test-method status="PASS" signature="ProcessPayLoadEnrollmentCalls(java.lang.String)[pri:0, instance:Testcase.soapTest@551aa95a]" name="ProcessPayLoadEnrollmentCalls" duration-ms="1026" started-at="2019-09-18T06:02:25Z" data-provider="getData" finished-at="2019-09-18T06:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
               </value>
             </param>
           </params>
@@ -20,9 +94,9 @@
         </test-method> <!-- ProcessPayLoadEnrollmentCalls -->
       </class> <!-- Testcase.soapTest -->
     </test> <!-- Soap UI Test -->
-    <test name="Validate and Post Test" duration-ms="52792" started-at="2019-02-05T09:04:30Z" finished-at="2019-02-05T09:05:23Z">
+    <test name="Validate and Post Test" duration-ms="28428" started-at="2019-09-18T06:02:27Z" finished-at="2019-09-18T06:02:55Z">
       <class name="Testcase.validateAndPostTest">
-        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.validateAndPostTest@55b0dcab]" name="NSFBoomi" duration-ms="52788" started-at="2019-02-05T09:04:30Z" data-provider="getData" finished-at="2019-02-05T09:05:23Z">
+        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.validateAndPostTest@23348b5d]" name="NSFBoomi" duration-ms="28423" started-at="2019-09-18T06:02:27Z" data-provider="getData" finished-at="2019-09-18T06:02:55Z">
           <params>
             <param index="0">
               <value>
@@ -40,24 +114,127 @@
         </test-method> <!-- NSFBoomi -->
       </class> <!-- Testcase.validateAndPostTest -->
     </test> <!-- Validate and Post Test -->
-    <test name="Quote Status Test" duration-ms="5741" started-at="2019-02-05T09:05:23Z" finished-at="2019-02-05T09:05:29Z">
+    <test name="Quote Status Test" duration-ms="7026" started-at="2019-09-18T06:02:55Z" finished-at="2019-09-18T06:03:02Z">
       <class name="Testcase.quoteStatusValidationTest">
-        <test-method status="PASS" signature="validation(java.lang.String)[pri:0, instance:Testcase.quoteStatusValidationTest@6200f9cb]" name="validation" duration-ms="5737" started-at="2019-02-05T09:05:23Z" data-provider="getData" finished-at="2019-02-05T09:05:29Z">
+        <test-method status="FAIL" signature="validation(java.lang.String)[pri:0, instance:Testcase.quoteStatusValidationTest@6f4a47c7]" name="validation" duration-ms="3342" started-at="2019-09-18T06:02:55Z" data-provider="getData" finished-at="2019-09-18T06:02:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[626916681090-H]]>
+                <![CDATA[700019091801-H]]>
               </value>
             </param>
           </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.quoteStatusValidationTest.validation(quoteStatusValidationTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
           <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_32_58_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_32_58_IST_2019.jpg><img src=Wed_Sep_18_11_32_58_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="FAIL" signature="validation(java.lang.String)[pri:0, instance:Testcase.quoteStatusValidationTest@6f4a47c7]" name="validation" duration-ms="2835" started-at="2019-09-18T06:02:59Z" data-provider="getData" finished-at="2019-09-18T06:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700019091802-H]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.quoteStatusValidationTest.validation(quoteStatusValidationTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_02_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_02_IST_2019.jpg><img src=Wed_Sep_18_11_33_02_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validation -->
       </class> <!-- Testcase.quoteStatusValidationTest -->
     </test> <!-- Quote Status Test -->
-    <test name="PB Login Test" duration-ms="9825" started-at="2019-02-05T09:05:29Z" finished-at="2019-02-05T09:05:39Z">
+    <test name="PB Login Test" duration-ms="9691" started-at="2019-09-18T06:03:02Z" finished-at="2019-09-18T06:03:12Z">
       <class name="Testcase.PBLoginTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Testcase.PBLoginTest@2638011]" name="login" duration-ms="9820" started-at="2019-02-05T09:05:29Z" finished-at="2019-02-05T09:05:39Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Testcase.PBLoginTest@6236eb5f]" name="login" duration-ms="9688" started-at="2019-09-18T06:03:02Z" finished-at="2019-09-18T06:03:12Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +243,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[b0ma8c0nsit1$]]>
+                <![CDATA[b0ma8c0nsit2$]]>
               </value>
             </param>
           </params>
@@ -75,29 +252,9 @@
         </test-method> <!-- login -->
       </class> <!-- Testcase.PBLoginTest -->
     </test> <!-- PB Login Test -->
-    <test name="Quote Generation Test" duration-ms="43751" started-at="2019-02-05T09:05:39Z" finished-at="2019-02-05T09:06:23Z">
-      <class name="Testcase.firstQuoteGenerationTest">
-        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.firstQuoteGenerationTest@3098cf3b]" name="quote" duration-ms="43744" started-at="2019-02-05T09:05:39Z" finished-at="2019-02-05T09:06:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[626916681090-H]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[08/2018]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quote -->
-      </class> <!-- Testcase.firstQuoteGenerationTest -->
-    </test> <!-- Quote Generation Test -->
-    <test name="Payment Test" duration-ms="71490" started-at="2019-02-05T09:06:23Z" finished-at="2019-02-05T09:07:34Z">
-      <class name="Testcase.memberPaymentTest">
-        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.memberPaymentTest@68567e20]" name="quote" duration-ms="71483" started-at="2019-02-05T09:06:23Z" finished-at="2019-02-05T09:07:34Z">
+    <test name="Payment Test" duration-ms="45769" started-at="2019-09-18T06:03:12Z" finished-at="2019-09-18T06:03:58Z">
+      <class name="Testcase.memberPaymentTestNew">
+        <test-method status="FAIL" signature="quote(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.memberPaymentTestNew@3e96bacf]" name="quote" duration-ms="45292" started-at="2019-09-18T06:03:12Z" finished-at="2019-09-18T06:03:57Z">
           <params>
             <param index="0">
               <value>
@@ -106,53 +263,206 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[b0ma8c0nsit1$]]>
+                <![CDATA[b0ma8c0nsit2$]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[200]]>
+                <![CDATA[1200]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[02/2019]]>
+                <![CDATA[09/2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[626916681090-H]]>
+                <![CDATA[700019091801-H]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test is FAILED!!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test is FAILED!!!
+at org.testng.Assert.fail(Assert.java:96)
+at Testcase.memberPaymentTestNew.quote(memberPaymentTestNew.java:185)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_57_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_33_57_IST_2019.jpg><img src=Wed_Sep_18_11_33_57_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- quote -->
-      </class> <!-- Testcase.memberPaymentTest -->
+      </class> <!-- Testcase.memberPaymentTestNew -->
     </test> <!-- Payment Test -->
-    <test name="Threshold Test" duration-ms="48630" started-at="2019-02-05T09:07:34Z" finished-at="2019-02-05T09:08:23Z">
-      <class name="Testcase.thresholdQuoteTest">
-        <test-method status="PASS" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.thresholdQuoteTest@32910148]" name="quote" duration-ms="48626" started-at="2019-02-05T09:07:34Z" finished-at="2019-02-05T09:08:23Z">
+    <test name="Quote Generation Test" duration-ms="142832" started-at="2019-09-18T06:03:58Z" finished-at="2019-09-18T06:06:20Z">
+      <class name="Testcase.firstQuoteGenerationTest">
+        <test-method status="FAIL" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.firstQuoteGenerationTest@60015ef5]" name="quote" duration-ms="71362" started-at="2019-09-18T06:03:58Z" finished-at="2019-09-18T06:05:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[626916681090-H]]>
+                <![CDATA[700019091801-H]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[08/2018]]>
+                <![CDATA[01/2019]]>
               </value>
             </param>
           </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
           <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_35_09_IST_2019.jpg><img src=Wed_Sep_18_11_35_09_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- quote -->
-      </class> <!-- Testcase.thresholdQuoteTest -->
-    </test> <!-- Threshold Test -->
-    <test name="Daily member Update Test" duration-ms="52346" started-at="2019-02-05T09:08:23Z" finished-at="2019-02-05T09:09:15Z">
+        <test-method status="FAIL" signature="quote(java.lang.String, java.lang.String)[pri:0, instance:Testcase.firstQuoteGenerationTest@60015ef5]" name="quote" duration-ms="70604" started-at="2019-09-18T06:05:10Z" finished-at="2019-09-18T06:06:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700019091802-H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/2019]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.firstQuoteGenerationTest.quote(firstQuoteGenerationTest.java:95)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_36_20_IST_2019.jpg><img src=Wed_Sep_18_11_36_20_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quote -->
+      </class> <!-- Testcase.firstQuoteGenerationTest -->
+    </test> <!-- Quote Generation Test -->
+    <test name="Daily member Update Test" duration-ms="36794" started-at="2019-09-18T06:06:21Z" finished-at="2019-09-18T06:06:57Z">
       <class name="Testcase.dailyMemberUpdateTest">
-        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="NSFBoomi" duration-ms="52339" started-at="2019-02-05T09:08:23Z" data-provider="getData" finished-at="2019-02-05T09:09:15Z">
+        <test-method status="PASS" signature="NSFBoomi(java.lang.String, java.lang.String)[pri:0, instance:Testcase.dailyMemberUpdateTest@5ab9e72c]" name="NSFBoomi" duration-ms="36792" started-at="2019-09-18T06:06:21Z" data-provider="getData" finished-at="2019-09-18T06:06:57Z">
           <params>
             <param index="0">
               <value>
@@ -170,48 +480,162 @@
         </test-method> <!-- NSFBoomi -->
       </class> <!-- Testcase.dailyMemberUpdateTest -->
     </test> <!-- Daily member Update Test -->
-    <test name="Member Effectuation Status Test" duration-ms="2827" started-at="2019-02-05T09:09:15Z" finished-at="2019-02-05T09:09:18Z">
+    <test name="Member Effectuation Status Test" duration-ms="6538" started-at="2019-09-18T06:06:57Z" finished-at="2019-09-18T06:07:04Z">
       <class name="Testcase.memberEffectuationStatusTest">
-        <test-method status="PASS" signature="validation(java.lang.String)[pri:0, instance:Testcase.memberEffectuationStatusTest@f2ff811]" name="validation" duration-ms="2804" started-at="2019-02-05T09:09:15Z" data-provider="getData" finished-at="2019-02-05T09:09:18Z">
+        <test-method status="FAIL" signature="validation(java.lang.String)[pri:0, instance:Testcase.memberEffectuationStatusTest@28975c28]" name="validation" duration-ms="2825" started-at="2019-09-18T06:06:57Z" data-provider="getData" finished-at="2019-09-18T06:07:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[626916681090-H]]>
+                <![CDATA[700019091801-H]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.memberEffectuationStatusTest.validation(memberEffectuationStatusTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_00_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_00_IST_2019.jpg><img src=Wed_Sep_18_11_37_00_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="FAIL" signature="validation(java.lang.String)[pri:0, instance:Testcase.memberEffectuationStatusTest@28975c28]" name="validation" duration-ms="2828" started-at="2019-09-18T06:07:01Z" data-provider="getData" finished-at="2019-09-18T06:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700019091802-H]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.sql.SQLException">
+            <message>
+              <![CDATA[Exhausted Resultset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLException: Exhausted Resultset
+at oracle.jdbc.driver.OracleResultSetImpl.getString(OracleResultSetImpl.java:1270)
+at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:498)
+at Testcase.memberEffectuationStatusTest.validation(memberEffectuationStatusTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_03_IST_2019.jpg>Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_Sep_18_11_37_03_IST_2019.jpg><img src=Wed_Sep_18_11_37_03_IST_2019.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- Testcase.memberEffectuationStatusTest -->
+    </test> <!-- Member Effectuation Status Test -->
+    <test name="Generate Invoice Test" duration-ms="328228" started-at="2019-09-18T06:07:04Z" finished-at="2019-09-18T06:12:32Z">
+      <class name="Testcase.generateInvoiceTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.generateInvoiceTest@dd0c991]" name="login" duration-ms="163645" started-at="2019-09-18T06:07:04Z" data-provider="getData" finished-at="2019-09-18T06:09:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700019091801-H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/31/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/2019]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validation -->
-      </class> <!-- Testcase.memberEffectuationStatusTest -->
-    </test> <!-- Member Effectuation Status Test -->
-    <test name="Generate Invoice Test" duration-ms="44769" started-at="2019-02-05T09:09:18Z" finished-at="2019-02-05T09:10:03Z">
-      <class name="Testcase.generateInvoiceTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="login" duration-ms="44763" started-at="2019-02-05T09:09:18Z" data-provider="getData" finished-at="2019-02-05T09:10:03Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcase.generateInvoiceTest@dd0c991]" name="login" duration-ms="164576" started-at="2019-09-18T06:09:48Z" data-provider="getData" finished-at="2019-09-18T06:12:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[doris]]>
+                <![CDATA[700019091802-H]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[b0ma8c0nsit1$]]>
+                <![CDATA[12/31/2019]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[626916681090-H]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[09/30/2018]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[08/2018]]>
+                <![CDATA[09/2019]]>
               </value>
             </param>
           </params>
@@ -219,44 +643,24 @@
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- Testcase.generateInvoiceTest -->
-    </test> <!-- Generate Invoice Test -->
-    <test name="820 process Test" duration-ms="5208" started-at="2019-02-05T09:10:03Z" finished-at="2019-02-05T09:10:08Z">
       <class name="Testcase.dailyMemberUpdateTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="setUp" is-config="true" duration-ms="50354" started-at="2019-02-05T09:02:58Z" finished-at="2019-02-05T09:03:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.dailyMemberUpdateTest@5ab9e72c]" name="setUp" is-config="true" duration-ms="33595" started-at="2019-09-18T06:01:19Z" finished-at="2019-09-18T06:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="setUp" is-config="true" duration-ms="22917" started-at="2019-02-05T09:03:49Z" finished-at="2019-02-05T09:04:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcase.generateInvoiceTest@dd0c991]" name="setUp" is-config="true" duration-ms="31262" started-at="2019-09-18T06:01:52Z" finished-at="2019-09-18T06:02:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.dailyMemberUpdateTest@7748410a]" name="tearDown" is-config="true" duration-ms="763" started-at="2019-02-05T09:10:08Z" finished-at="2019-02-05T09:10:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.dailyMemberUpdateTest@5ab9e72c]" name="tearDown" is-config="true" duration-ms="933" started-at="2019-09-18T06:12:32Z" finished-at="2019-09-18T06:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.generateInvoiceTest@757acd7b]" name="tearDown" is-config="true" duration-ms="906" started-at="2019-02-05T09:10:09Z" finished-at="2019-02-05T09:10:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.generateInvoiceTest@dd0c991]" name="tearDown" is-config="true" duration-ms="1076" started-at="2019-09-18T06:12:33Z" finished-at="2019-09-18T06:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Testcase.dailyMemberUpdateTest -->
-      <class name="Testcase.Process820Test">
-        <test-method status="PASS" signature="validation(java.lang.String, java.lang.String)[pri:0, instance:Testcase.Process820Test@71c3b41]" name="validation" duration-ms="5205" started-at="2019-02-05T09:10:03Z" data-provider="getData" finished-at="2019-02-05T09:10:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[626916681090-H]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[42690]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validation -->
-      </class> <!-- Testcase.Process820Test -->
-    </test> <!-- 820 process Test -->
+    </test> <!-- Generate Invoice Test -->
   </suite> <!-- Suite -->
 </testng-results>

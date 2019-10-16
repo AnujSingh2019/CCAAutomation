@@ -17,7 +17,7 @@ import utilities.TestUtil;
 public class generateInvoiceTest extends BaseTest1{
 	
 	@Test(dataProvider = "getData")
-	public void login(String username, String password, String subsID, String billDate,String postMonth) throws AddressException, IOException, MessagingException, InterruptedException
+	public void login(String subsID, String billDate,String postMonth) throws AddressException, IOException, MessagingException, InterruptedException
 	{
 		
 		/*type("username_NAME",username);

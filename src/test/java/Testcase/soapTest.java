@@ -48,7 +48,7 @@ public class soapTest {
 		           //System.setProperty("java.net.useSystemProxies", "true");
 		           
                    String Username=System.getProperty("user.name");
-                   String keystore =  "C://Program Files//Java//jdk1.8.0_112//jre//lib//security//keystore";
+                   /*String keystore =  "C://Program Files//Java//jdk1.8.0_112//jre//lib//security//keystore";
                    String storepass= "changeit";
                    String storetype= "JKS";
                    String[][] props = {
@@ -58,13 +58,14 @@ public class soapTest {
                          { "javax.net.ssl.keyStoreType", storetype, },
                        };
                        for (int i = 0; i < props.length; i++)
-                         System.getProperties().setProperty(props[i][0], props[i][1]);
+                         System.getProperties().setProperty(props[i][0], props[i][1]);*/
                    String filename= carrier+".xml";
                    //String f = carrier+".xml";
                    
                    File fXmlFile = new File("C:\\Users\\"+Username+"\\Desktop\\XMLs\\"+filename);
-    String    soapAction="updateProcessPayload";
-    String SoapendpointURL = "http://cca-nonprod.nttdataservices.com/intcca3sit1/ws/soap?wsdl";
+    String    soapAction="updateProcessPayload2";
+    String SoapendpointURL = "http://cca-nonprod.nttdataservices.com/intcca3sit2/ws/soap?wsdl";
+  //String SoapendpointURL = "http://cca-nonprod.nttdataservices.com/intper2/ws/soap?wsdl";
                    SOAPMessage message = MessageFactory.newInstance().createMessage();
 SOAPPart soapPart = message.getSOAPPart();
 soapPart.setContent(new StreamSource(new FileInputStream(fXmlFile)));

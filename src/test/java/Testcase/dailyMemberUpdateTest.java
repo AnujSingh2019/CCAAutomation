@@ -33,8 +33,8 @@ import utilities.TestUtil;
 		public void NSFBoomi(String username, String password) throws AddressException, IOException, MessagingException, InterruptedException, SQLException
 		{
 			
-			/*Thread.sleep(28000);
-			type("BoomiUserName_XPATH",username);
+			//Thread.sleep(12000);
+			/*type("BoomiUserName_XPATH",username);
 			type("BoomiPassword_XPATH",password);
 			
 			click("BoomiLogin_XPATH");*/
@@ -46,7 +46,8 @@ import utilities.TestUtil;
 			//action("menu_XPATH");
 			//action("menuBill_XPATH");
 			Thread.sleep(3000);
-			select("atom_XPATH","CCA3_SIT1_A");
+			select("atom_XPATH","CCA3_SIT2_A");
+			//select("atom_XPATH","CCA3_PER_A");
 			Thread.sleep(3000);
 			click("processSearch_XPATH");
 			Thread.sleep(3000);
@@ -57,9 +58,9 @@ import utilities.TestUtil;
 		    click("dailyMemUpdate_XPATH");
 			Thread.sleep(4000);
 			click("executeFinal_CSS");
-			Thread.sleep(12000);
+			Thread.sleep(9000);
 			click("refreshBoomi_XPATH");
-			Thread.sleep(20000);
+			Thread.sleep(5000);
 			
 			/*System.out.println("Test 5- DailyMemberUpdateTest Ran successfully");
 			System.out.println("Daily Member Update process ran sucessfully " );*/

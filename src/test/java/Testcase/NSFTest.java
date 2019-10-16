@@ -20,7 +20,7 @@ import utilities.TestUtil;
 public class NSFTest extends BaseTest1 {
 	
 	@Test(dataProvider = "getData")
-	public void NSFAdjustment(String username, String password, String subsID,String amount,String glPostMonth) throws AddressException, IOException, MessagingException, InterruptedException, SQLException
+	public void NSFAdjustment(String subsID,String amount,String glPostMonth) throws AddressException, IOException, MessagingException, InterruptedException, SQLException
 	{
 		
 		

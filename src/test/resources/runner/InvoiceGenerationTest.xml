@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="listeners.CustomListeners"></listener>
+	    <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+	<test name="Soap UI Test">
+    <classes>
+      
+      <class name="Testcase.soapTest"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	<test name="Validate and Post Test">
+    <classes>
+      
+      <class name="Testcase.validateAndPostTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Quote Status Test">
+    <classes>
+      
+      <class name="Testcase.quoteStatusValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="PB Login Test">
+    <classes>
+      
+      <class name="Testcase.PBLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Quote Generation Test">
+    <classes>
+      
+      <class name="Testcase.firstQuoteGenerationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Payment Test">
+    <classes>
+      
+      <class name="Testcase.memberPaymentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Threshold Test">
+    <classes>
+ 
+     <class name="Testcase.thresholdQuoteTest"/>
+    </classes>
+       </test> <!-- Test --> 
+       
+     <test name="Daily member Update Test">
+    <classes>
+      
+      <class name="Testcase.dailyMemberUpdateTest"/>
+    </classes>
+  
+      </test> <!-- Test --> 
+             
+     <test name="Member Effectuation Status Test">
+    <classes>
+      
+      <class name="Testcase.memberEffectuationStatusTest"/>
+    </classes>
+  </test> <!-- Test -->
+      
+    <test name="Generate Invoice Test">
+    <classes>
+      
+      <class name="Testcase.generateInvoiceTest"/>
+    </classes>
+  </test> <!-- Test -->
+       
+      
+</suite> <!-- Suite -->

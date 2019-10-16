@@ -22,6 +22,7 @@ import javax.xml.soap.SOAPConnection;
 import javax.xml.soap.SOAPConnectionFactory;
 import javax.xml.soap.SOAPEnvelope;
 import javax.xml.soap.SOAPException;
+import javax.xml.soap.SOAPHeader;
 import javax.xml.soap.SOAPMessage;
 import javax.xml.soap.SOAPPart;
 import javax.xml.transform.stream.StreamSource;
@@ -53,18 +54,21 @@ import utilities.TestUtil;
 
 public class processARAccountforDelinquency {
 	
+	@SuppressWarnings("restriction")
 	@Test(dataProvider = "getData")
-	public static void ProcessPayLoadEnrollmentCalls(String carrier) throws SOAPException, ParserConfigurationException, SAXException, IOException, InterruptedException, SQLException
+	public static void ProcessDelinquencyCalls(String carrier) throws SOAPException, ParserConfigurationException, SAXException, IOException, InterruptedException, SQLException
     
     {
-		           System.setProperty("java.net.useSystemProxies", "true");
+		           //System.setProperty("java.net.useSystemProxies", "true");
 		           
                    String Username=System.getProperty("user.name");
-                   String keystore =  "C://Program Files//Java//jdk1.8.0_112//jre//lib//security//keystore.jks";
+                   
+                   
+           String keystore =  "C://Program Files//Java//jdk1.8.0_112//jre//lib//security//keystore.jks";
                    String storepass= "changeit";
                    String storetype= "JKS";
                    String[][] props = {
-                         { "javax.net.ssl.trustStore", keystore, },
+                         //{ "javax.net.ssl.trustStore", keystore, },
                          { "javax.net.ssl.keyStore", keystore, },
                          { "javax.net.ssl.keyStorePassword", storepass, },
                          { "javax.net.ssl.keyStoreType", storetype, },
@@ -74,18 +78,24 @@ public class processARAccountforDelinquency {
                    String filename= carrier+".xml";
                    //String f = carrier+".xml";
                    
-                   File fXmlFile = new File("C:\\Users\\"+Username+"\\Desktop\\XMLs\\"+filename);
+                   //File fXmlFile = new File("C:\\Users\\"+Username+"\\Desktop\\XMLs\\"+filename);
+                   File fXmlFile = new File("C:\\Users\\124859\\Desktop\\XMLs\\"+filename);
                    
                    /*String    soapAction="updateProcessPayload";
                    String SoapendpointURL = "http://cca-nonprod.nttdataservices.com/intcca3sit1/ws/soap?wsdl";*/
-                   String    soapAction="processDelinquencyForARAccount";
+                   String SoapAction="processDelinquencyForARAccount";
                    String SoapendpointURL ="https://fmssit1.cca-nonprod.nttdataservices.com/diamond-ws/services/AccountsReceivableService?wsdl";
                    SOAPMessage message = MessageFactory.newInstance().createMessage();
 SOAPPart soapPart = message.getSOAPPart();
 soapPart.setContent(new StreamSource(new FileInputStream(fXmlFile)));
+/*SOAPHeader soapHeader = message.getSOAPHeader();
+soapHeader.addAttribute(soapHeader., "doris");*/
+//soapHeader.setTextContent(new FileInputStream(fXmlFile));
+
+
 // DocumentBuilderFactory.setNamespaceAware(true);
 MimeHeaders headers = message.getMimeHeaders();
-headers.addHeader("SOAPAction", soapAction);
+headers.addHeader("SOAPAction", SoapAction);
 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 dbFactory.setNamespaceAware(true);
                    DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -102,90 +112,16 @@ dbFactory.setNamespaceAware(true);
                                SOAPConnection soapConnection = soapConnectionFactory.createConnection();
 
                                // Send SOAP Message to SOAP Server
+                               
+                              
                                SOAPMessage soapResponse = soapConnection.call(message, SoapendpointURL);
                             //  System.out.println(soapResponse.getSOAPPart());
                                soapResponse.writeTo(System.out);
                                
                                Thread.sleep(3000);
            
-                               
-                               /*Connection con = DriverManager.getConnection(TestConfig.dbConnectionUrl, TestConfig.dbUserName, TestConfig.dbPassword);
-                      			PreparedStatement pstmt;
-                      			int numUpd;
-                      			ResultSet result;
-                      			
-                      			pstmt = con.prepareStatement(
-                      					  "select enrollment_status,AR_Account_ID from AR_ACCOUNT WHERE SEQ_BILL_ENTITY_ID in ( select SEQ_SUBS_ID FROM MEMBER_ELIG_HISTORY WHERE SUBSCRIBER_ID= ?)"); 
-                      					                                  // Create a PreparedStatement object        1 
-                      					pstmt.setString(1,subsID);  
-                      			
-                      					result = pstmt.executeQuery();
-                      					result.next();
-                      					
-                      					String enrollmentStatus=result.getString("ENROLLMENT_STATUS");
-                      					String arAccountID=result.getString("AR_ACCOUNT_ID");
-                      					
-                      					if (enrollmentStatus.equalsIgnoreCase("71"))
-                      				   	{
-                      				   	
-                      				   	      
-                      				   	       FileInputStream myxls = new FileInputStream("D:/Selenium/Eclispse/SeleniumPractice/DataDrivenFrameworkMVN/src/test/resources/excel/Testoutput.xlsx");
-                      				   	       XSSFWorkbook studentsSheet = new XSSFWorkbook(myxls);
-                      				   	       XSSFSheet worksheet = studentsSheet.getSheetAt(0);
-                      				   	       int lastRow=worksheet.getLastRowNum();
-                      				   	       System.out.println(lastRow);
-                      				   	       XSSFRow row = worksheet.createRow(++lastRow);
-                      				   	       row.createCell(0).setCellValue("Delinquency job run Test");
-                      				   	       row.createCell(1).setCellValue(subsID);
-                      				   	       row.createCell(2).setCellValue(arAccountID);
-                      				   	       row.createCell(3).setCellValue("71");
-                      				   	       row.createCell(4).setCellValue(enrollmentStatus);
-                      				   	       row.createCell(5).setCellValue("PASS");
-                      				   	       myxls.close();
-                      				   	       FileOutputStream output_file =new FileOutputStream(new File("D:/Selenium/Eclispse/SeleniumPractice/DataDrivenFrameworkMVN/src/test/resources/excel/Testoutput.xlsx"));  
-                      				   	       //write changes
-                      				   	       studentsSheet.write(output_file);
-                      				   	       output_file.close();
-                      				   	       //System.out.println(" is successfully written");
-                      				   	      
-                      				   	    }
-                      				   	    
-
-                      				   	else
-                      				   	{
-                      				   		 
-                      				   	       FileInputStream myxls = new FileInputStream("D:/Selenium/Eclispse/SeleniumPractice/DataDrivenFrameworkMVN/src/test/resources/excel/Testoutput.xlsx");
-                      				   	       XSSFWorkbook studentsSheet = new XSSFWorkbook(myxls);
-                      				   	       XSSFSheet worksheet = studentsSheet.getSheetAt(0);
-                      				   	       int lastRow=worksheet.getLastRowNum();
-                      				   	       //System.out.println(lastRow);
-                      				   	       XSSFRow row = worksheet.createRow(++lastRow);
-                      				   	       row.createCell(0).setCellValue("Delinquency job run Test");
-                      				   	       row.createCell(1).setCellValue(subsID);
-                      				   	       row.createCell(2).setCellValue(arAccountID);
-                      				   	       row.createCell(3).setCellValue("71");
-                      				   	       row.createCell(4).setCellValue(enrollmentStatus);
-                      				   	       row.createCell(5).setCellValue("FAILED");
-                      				   	       myxls.close();
-                      				   	       FileOutputStream output_file =new FileOutputStream(new File("D:/Selenium/Eclispse/SeleniumPractice/DataDrivenFrameworkMVN/src/test/resources/excel/Testoutput.xlsx"));  
-                      				   	       //write changes
-                      				   	       studentsSheet.write(output_file);
-                      				   	       output_file.close();
-                      				   	       //System.out.println(" is successfully written");
-                      				   	    Assert.fail("Test is FAILED!!!");
-                      				   	}
-                      					
-                      			
-                      					pstmt.close();  
-                              
-                               */
-                              
     }
-	
-	/*public static void main(String[] arg) throws SOAPException, ParserConfigurationException, SAXException, IOException, InterruptedException
-	{
-		ProcessPayLoadEnrollmentCalls("PB1");
-	}*/
+        
                    
 	
 	@DataProvider

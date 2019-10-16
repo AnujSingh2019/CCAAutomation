@@ -42,14 +42,14 @@ public class thresholdQuoteTest extends BaseTest1{
 	Thread.sleep(3000);
 	
 	clear("billingCycle_XPATH");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	type ("billingCycle_XPATH",subsID);
 	Thread.sleep(2000);
 	
 	click("btn_XPATH");
 	Thread.sleep(2000);
 	click("newJob_XPATH");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	click("subID_CSS");
 	type ("subIDBox_XPATH",subsID);
 	type ("postMonth_XPATH",postMonth);
@@ -63,12 +63,12 @@ public class thresholdQuoteTest extends BaseTest1{
 	click("closeBtn1_XPATH");
 	Thread.sleep(2000);
 	click("refreshBtn1_XPATH");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	click("quoteImg_XPATH");
 	click("postBtn1_XPATH");
 	Thread.sleep(2000);
 	click("closeBtn2_XPATH");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	/*action("mainMenuAR_XPATH");
 	action("billHist_XPATH");
 	type("subsID_XPATH",subsID);
@@ -101,7 +101,7 @@ public class thresholdQuoteTest extends BaseTest1{
 	       XSSFWorkbook studentsSheet = new XSSFWorkbook(myxls);
 	       XSSFSheet worksheet = studentsSheet.getSheetAt(0);
 	       int lastRow=worksheet.getLastRowNum();
-	       System.out.println(lastRow);
+	       //System.out.println(lastRow);
 	       XSSFRow row = worksheet.createRow(++lastRow);
 	       row.createCell(0).setCellValue("Threshold Quote generation Test");
 	       row.createCell(1).setCellValue(subsID);
